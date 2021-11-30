@@ -151,6 +151,8 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/import</li>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/permaview</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/refresh</li>
@@ -347,13 +349,16 @@ Error message and password prompt
 <div created="20210604103339592" modified="20210604103346336" title="$:/config/NewJournal/Title">
 <pre>YYYY MMM DDth</pre>
 </div>
-<div created="20211105051225677" modified="20211110134551182" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
-<pre>show</pre>
+<div created="20211105051225677" modified="20211130075108061" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
+<pre>hide</pre>
 </div>
 <div created="20211105051250586" modified="20211105051250586" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
 <pre>show</pre>
 </div>
 <div created="20211104094423324" modified="20211105051220814" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/import">
+<pre>hide</pre>
+</div>
+<div created="20211130075139853" modified="20211130075139853" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
 <pre>hide</pre>
 </div>
 <div created="20211105051257354" modified="20211105051257354" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/permaview">
@@ -14854,7 +14859,7 @@ Error message and password prompt
 <div created="20210604103849628" modified="20210604104154210" title="$:/state/plugin-info--896887961-$:/plugins/tiddlywiki/menubar--331413611">
 <pre>config</pre>
 </div>
-<div created="20210604103914241" modified="20211110142921159" title="$:/state/sidebar">
+<div created="20210604103914241" modified="20211130075233131" title="$:/state/sidebar">
 <pre>no</pre>
 </div>
 <div created="20210604103612755" modified="20210604103618187" title="$:/state/tab--1418380610">
@@ -14872,8 +14877,8 @@ Error message and password prompt
 <div created="20210604103416615" modified="20210604103416615" title="$:/state/tab--959111941">
 <pre>$:/core/ui/ControlPanel/EditorTypes</pre>
 </div>
-<div created="20210604103418263" modified="20211110143059700" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Info</pre>
+<div created="20210604103418263" modified="20211130075146780" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/KeyboardShortcuts</pre>
 </div>
 <div created="20210604103556660" modified="20210604103600537" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/Gitea</pre>
@@ -14881,11 +14886,11 @@ Error message and password prompt
 <div created="20211104100635206" modified="20211105063622750" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Explorer</pre>
 </div>
-<div created="20211104094413615" modified="20211110134702560" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/Open</pre>
+<div created="20211104094413615" modified="20211130075209461" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/More</pre>
 </div>
-<div created="20210604103510375" modified="20211105051308591" title="$:/state/tabs/controlpanel/toolbars-1345989671">
-<pre>$:/core/ui/ControlPanel/Toolbars/EditToolbar</pre>
+<div created="20210604103510375" modified="20211130075114046" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<pre>$:/core/ui/ControlPanel/Toolbars/PageControls</pre>
 </div>
 <div created="20211105063056049" modified="20211105063057546" title="$:/state/tag-manager/mt_history">
 <pre>closed</pre>
@@ -14911,7 +14916,7 @@ Error message and password prompt
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20211110141831752" list="[[저작권 정보]] 첫화면" modified="20211110150711027" title="$:/StoryList">
+<div created="20211130075343118" list="첫화면" modified="20211130084509697" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20210604104201759" list="$:/plugins/tiddlywiki/menubar/items/hamburger $:/plugins/tiddlywiki/menubar/items/topleftbar $:/plugins/tiddlywiki/menubar/items/matteul $:/plugins/tiddlywiki/menubar/items/contents $:/plugins/tiddlywiki/menubar/items/extmenu $:/plugins/tiddlywiki/menubar/items/search $:/plugins/tiddlywiki/menubar/items/pagecontrols $:/plugins/tiddlywiki/menubar/items/server $:/plugins/tiddlywiki/menubar/items/toprightbar $:/plugins/tiddlywiki/menubar/items/sidebar" modified="20211104110126834" title="$:/tags/MenuBar">
@@ -15103,8 +15108,33 @@ Error message and password prompt
 !! 본 사이트 이용 방법에 대해 알아보시려면 [[도움말]]을 참고하세요.
 !! 본 사이트 이용 중 문의 사항에 대해서는 [[문의]] 코너를 참고하세요.</pre>
 </div>
-<div created="20211104111122681" modified="20211104111124096" tags="" title="문학 관련 사이트">
-<pre></pre>
+<div created="20211104111122681" modified="20211130092246291" tags="" title="문학 관련 사이트">
+<pre>```
+이 페이지는 단지 순수한 의도에서 유용하다고 판단하거나 소개하고 싶다고 생각된 사이트를 소개하려는 목적으로 존재합니다. 아래 각 사이트들은 개나리✨ 및 마음의 뜰과 직접적 연관이 없습니다.
+또한 아래에 명시된 사이트는 어떠한 요청이나 요구를 받고 등재 된 것이 아님을 알려드리며 아래 사이트에 대해 개나리✨ 및 마음의 뜰은 어떠한 책임도 지지 않습니다.
+```
+
+!문학 관련 전시시설
+* [[파주 지혜의 숲|http://forestofwisdom.or.kr/]] - 경기도 파주시 문발동 파주출판단지 내
+* [[종로 윤동주문학관|https://www.jfac.or.kr/site/main/content/yoondj01]] - 서울특별시 종로구 청운동 청와대 뒷편
+* [[부산 요산문학관|http://www.yosan.co.kr/main/index.html]] - 부산광역시 금정구 남산동 (1호선 범어사역 인근)
+* [[고양 여행자북카페|https://www.goyang.go.kr/goyangtcenter/info/bookcafe.do]] - 고양시 일산동구 장항동 고양관광정보센터 내 (동구청 맞은편, 3호선 정발산역 2번출구)
+* [[고양 플라워북카페|https://www.flower.or.kr/rose/rose01.php]] - 고양시 일산동구 장항동 호수공원 내
+
+!분위기 있는 도서관, 도서실
+* [[고양 마상공원작은도서관|https://www.smalllibrary.org/library/detail/1787057]] - 고양시 덕양구 주교동 마상공원 내
+
+!문학주제 카페
+* [[서울 마포 채그로|https://checkngrow.modoo.at/]] - 서울특별시 마포구 마포동
+
+!책과 함께하면 좋은 카페
+&gt;모두 방문해본 카페이고 커피닮다를 제외하면 장시간 앉아도 본 카페들입니다. 추천 기준은 (1)프렌차이즈가 아니면서 (2)분위기 좋은 카페들입니다. 여기서 분위기는 카페 내부의 분위기 뿐 아니라 주변 분위기도 포함됩니다.
+* [[알마센&amp;카카오 커피랩|https://www.instagram.com/cafe_almacen/]] - 고양시 일산동구 중산동
+* [[큐커피|https://www.instagram.com/queue_coffee_lab/]] - 고양시 덕양구 주교동 주교동행정복지센터 맞은편
+* [[커피 마시다|https://www.instagram.com/coffee_masida/]] - 고양시 일산동구 성석동
+* [[커피폴|https://www.instagram.com/coffee_paul/]] - 경기도 동두천시 생연동
+* [[커피닮다|https://www.youtube.com/watch?v=QYDYBe643pc]] - 경기도 동두천시 생연동(1호선 보산역 인근)
+* [[W-37|https://www.instagram.com/cafe_w_37/]] - 서울특별시 마포구 동교동 홍대 책거리 내 (공항철도·경의중앙선 홍대입구역 1·6번 출구)</pre>
 </div>
 <div created="20210920140711400" modified="20210920140757448" tags="" title="분류별 색인">
 <pre>미원의 작품을 분류별로 찾으실 수 있습니다.
@@ -15125,8 +15155,7 @@ Error message and password prompt
 <pre>* [[2021년까지의 마음의 뜰|세월의 흔적들/2021년 이전]]</pre>
 </div>
 <div created="20211110142953718" modified="20211110144227307" tags="mt_history" title="세월의 흔적들/2021년 이전">
-<pre>
-!! 2018년
+<pre>!! 2018년
 * 연 초 Google Blogger.com을 이용하여 미원의 글 모음 블로그인 ‘미원의 뜨락’ 시작(trak.gaenali.pe.kr)
 
 !! 2019년
@@ -15184,8 +15213,52 @@ Error message and password prompt
 (4-2) 사회적 지탄이 되는 내용을 담고 있는 사이트를 구축하기 위한 용도(성혐오를 비롯한 각종 혐오·범죄조장 등)&lt;br&gt;
 (4-3) 기독교적 내용을 담고 있는 사이트로서 보편적 기독교 신앙과 이를 뒷받침할 성경적 해석 등과 배치되는 주장 혹은 보편적 기독교에서 동의할 수 없는 주장을 주요 이론으로 삼는 내용을 담은 사이트를 구축하기 위한 용도(일명 '이단·사이비')</pre>
 </div>
-<div created="20211104111116714" modified="20211104111118505" tags="" title="전자출판 관련 사이트">
-<pre></pre>
+<div created="20211104111116714" modified="20211130084332576" tags="" title="전자출판 관련 사이트">
+<pre>```
+이 페이지는 단지 순수한 의도에서 유용하다고 판단하거나 소개하고 싶다고 생각된 사이트를 소개하려는 목적으로 존재합니다. 아래 각 사이트들은 개나리✨ 및 마음의 뜰과 직접적 연관이 없습니다.
+또한 아래에 명시된 사이트는 어떠한 요청이나 요구를 받고 등재 된 것이 아님을 알려드리며 아래 사이트에 대해 개나리✨ 및 마음의 뜰은 어떠한 책임도 지지 않습니다.
+```
+! 도구들
+* [[온라인 맞춤법 검사기|http://speller.cs.pusan.ac.kr/]]
+* [[표준국어대사전|https://stdict.korean.go.kr/main/main.do]]
+* [[다음 사전|https://dic.daum.net]]
+* [[네이버 사전|https://dict.naver.com/]]
+* [[Google 도서 검색|https://books.google.co.kr/?hl=ko&amp;tab=wp&amp;authuser=0]]
+* [[네이버 책|https://book.naver.com/]]
+---
+! 전자출판관련 정부기관, 민간단체
+* [[문화체육관광부(문체부)|https://www.mcst.go.kr/kor/main.jsp]]
+* [[한국출판문화산업진흥원|http://www.kpipa.or.kr/main/main.do]]
+* [[한국저작권위원회|https://www.copyright.or.kr/main.do]]
+* [[사단법인 한국전자출판협회|http://www.kepa.or.kr/]]
+* [[한국전자출판협동조합|https://www.ebookcoop.co.kr/]]
+* [[한국전자출판학회|http://www.dtp.or.kr/]]
+
+---
+! 전자출판 플랫폼
+* [[교보문고 PubPle/POD|http://pod.kyobobook.co.kr/index.ink]]
+* [[애플북스|https://www.apple.com/kr/apple-books/]]
+* [[유페이퍼|http://upaper.net]]
+
+---
+! 전자도서관 (디지털도서관)
+* [[교보문고 디지털도서관|https://digital.kyobobook.co.kr/digital/library/libraryIs.ink]]
+* [[예스24 전자도서관|http://www.yes24.com/notice/eLibrary/eLibrary.aspx]]
+* [[국립한국방송통신대학교 중앙도서관/전자도서관|https://library.knou.ac.kr/]]
+* [[경기도사이버도서관|https://www.library.kr/cyber/index.do]]
+* [[경기도메모리|https://memory.library.kr/]] - (구)경기도 인천시, (구)경기도 강화군, (구)경기도 옹진군, (구)경기도 개성시 등 사라진 행정구역을 포함하여 경기도의 과거 자료와 문서 등을 보존하는 아카이빙 사이트
+---
+! 주요 인터넷 서점사 (가나다- ABC - 123 순)
+''아래 링크된 서점사는 마음의뜰 도서의 취급여부와 무관하게 링크되었습니다.''
+
+* [[교보문고|http://www.kyobobook.co.kr/index.laf?OV_REFFER=http://matteul.gaenali.net]]
+* [[네이버 시리즈|https://series.naver.com/ebook/home.series?isWebtoonAgreePopUp=true]]
+* [[방송대 e북|https://press.knou.ac.kr/goods/ebookList.do?condLscValue=201&amp;condMscValue=000]]
+* [[알라딘|https://www.aladin.co.kr]]
+* [[인터파크 도서|http://book.interpark.com/]]
+* [[영풍문고|https://www.ypbooks.co.kr/kor_index.yp]]
+* [[Google Play 도서|https://play.google.com/store/books?hl=ko]]
+* [[YES24|https://yes24.com]]</pre>
 </div>
 <div created="20210920140802173" modified="20210920140902570" tags="" title="주제별 색인">
 <pre>작품의 종류(장르)별로 검색이 가능합니다.
@@ -15194,17 +15267,53 @@ Error message and password prompt
 * [[수필]]
 * [[신앙수기]]</pre>
 </div>
-<div created="20211104094305628" modified="20211104111819011" tags="" title="첫화면">
+<div created="20211104094305628" modified="20211130075041446" tags="" title="첫화면">
 <pre>[img[mt-side.png]]&lt;br&gt;
 ---&lt;br&gt;
 &lt;br&gt;
-마음의뜰은 미원의 창작 활동을 더 잘하기 위해 시작된 1인출판 레이블입니다.&lt;br&gt; ''상단의 메뉴바에서 원하는 페이지를 선택해서 이동하세요.''</pre>
+마음의뜰은 미원의 창작 활동을 더 잘하기 위해 시작된 1인출판 레이블입니다.&lt;br&gt; ''상단의 메뉴바에서 원하는 페이지를 선택해서 이동하세요.''&lt;br&gt;&lt;br&gt;&lt;br&gt;
+---&lt;br&gt;
+마음의뜰은 2019년 5월 시작되었고 2021년 11월부터는 국내에서는 처음으로 Tiddlywiki 기반의 사이트로 운영되고 있습니다.</pre>
 </div>
-<div created="20211104111058299" modified="20211104111100597" tags="" title="추천사이트">
-<pre></pre>
+<div created="20211104111058299" modified="20211130084439658" tags="" title="추천사이트">
+<pre>```
+이 페이지는 단지 순수한 의도에서 유용하다고 판단하거나 소개하고 싶다고 생각된 사이트를 소개하려는 목적으로 존재합니다. 아래 각 사이트들은 개나리✨ 및 마음의 뜰과 직접적 연관이 없습니다.
+또한 아래에 명시된 사이트는 어떠한 요청이나 요구를 받고 등재 된 것이 아님을 알려드리며 아래 사이트에 대해 개나리✨ 및 마음의 뜰은 어떠한 책임도 지지 않습니다.
+```
+* [[제책이란|http://www.samto.com/technote/read.cgi?board=FAQ&amp;y_number=21]]</pre>
 </div>
-<div created="20211104111108983" modified="20211104111111844" tags="" title="출판 관련 사이트">
-<pre></pre>
+<div created="20211104111108983" modified="20211130084430637" tags="" title="출판 관련 사이트">
+<pre>```
+이 페이지는 단지 순수한 의도에서 유용하다고 판단하거나 소개하고 싶다고 생각된 사이트를 소개하려는 목적으로 존재합니다. 아래 각 사이트들은 개나리✨ 및 마음의 뜰과 직접적 연관이 없습니다.
+또한 아래에 명시된 사이트는 어떠한 요청이나 요구를 받고 등재 된 것이 아님을 알려드리며 아래 사이트에 대해 개나리✨ 및 마음의 뜰은 어떠한 책임도 지지 않습니다.
+```
+! 출판관련 정부기관, 민간단체 (출판관련 정부기관 &gt; 출판관련 협회 &gt; 출판관련 유관 정부기관 &gt; 출판관련 민간단체 순)
+* [[문화체육관광부(문체부)|https://www.mcst.go.kr/kor/main.jsp]]
+* [[한국출판문화산업진흥원|http://www.kpipa.or.kr/main/main.do]]
+* [[대한출판문화협회|http://kpa21.or.kr]]
+* [[한국저작권위원회|https://www.copyright.or.kr/main.do]]
+* [[한국작은출판문화연구소|http://korpub.or.kr/default/]]
+
+---
+! 도서관 및 도서 관련 시설
+* [[국립중앙도서관|https://www.nl.go.kr/]]
+* [[대한민국국회도서관|https://www.nanet.go.kr/main.do]]
+* [[고양시도서관센터|https://www.goyanglib.or.kr]]
+* [[국립한국방송통신대학교 중앙도서관/전자도서관|https://library.knou.ac.kr/]]
+* [[파주 지혜의 숲|http://forestofwisdom.or.kr/]]
+* [[일산동구 모당공원 작은 도서관|https://www.facebook.com/modangparklibrary/]]
+* [[한양문고|http://hanyangbook.com/]]
+* [[국가기록원|https://www.archives.go.kr/next/viewMain.do]]
+---
+! 주요 인터넷 서점사 (가나다- ABC - 123 순)
+''아래 링크된 서점사는 마음의뜰 도서의 취급여부와 무관하게 링크되었습니다.''
+
+* [[교보문고|http://www.kyobobook.co.kr/index.laf?OV_REFFER=http://matteul.gaenali.net]]
+* [[네이버 시리즈|https://series.naver.com/ebook/home.series?isWebtoonAgreePopUp=true]]
+* [[알라딘|https://www.aladin.co.kr]]
+* [[인터파크 도서|http://book.interpark.com/]]
+* [[영풍문고|https://www.ypbooks.co.kr/kor_index.yp]]
+* [[YES24|https://yes24.com]]</pre>
 </div>
 <div created="20211110123155737" modified="20211110123222739" tags="manual" title="Details Advanced Examples">
 <pre>!! Testing the DetailsWidget
