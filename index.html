@@ -181,6 +181,8 @@ Error message and password prompt
 
 <li>$:/config/RelinkOnRename</li>
 
+<li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/permalink</li>
+
 <li>$:/core</li>
 
 <li>$:/DefaultTiddlers</li>
@@ -236,6 +238,8 @@ Error message and password prompt
 <li>$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.23/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.23/index.html/$:/plugins/tiddlywiki/markdown</li>
 
 <li>$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.23/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.23/index.html/$:/plugins/tiddlywiki/text-slicer</li>
+
+<li>$:/state/dropdown/keyboardshortcut/excise-286565879</li>
 
 <li>$:/state/plugin-info--896887961-$:/plugins/tiddlywiki/menubar</li>
 
@@ -323,6 +327,8 @@ Error message and password prompt
 
 <li>주제별 색인</li>
 
+<li>책과 함께하면 좋은 카페</li>
+
 <li>첫화면</li>
 
 <li>추천사이트</li>
@@ -374,8 +380,8 @@ Error message and password prompt
 <div created="20211130075139853" modified="20211130075139853" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
 <pre>hide</pre>
 </div>
-<div created="20211105051257354" modified="20211105051257354" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/permaview">
-<pre>show</pre>
+<div created="20211105051257354" modified="20211201163453948" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/permaview">
+<pre>hide</pre>
 </div>
 <div created="20211105051303216" modified="20211105051303216" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/refresh">
 <pre>show</pre>
@@ -401,10 +407,10 @@ Error message and password prompt
 <div created="20210604103856943" modified="20211105051146035" title="$:/config/plugins/menubar/MenuItems/Visibility/$:/plugins/tiddlywiki/menubar/items/pagecontrols">
 <pre>show</pre>
 </div>
-<div created="20210604103859011" modified="20210604103859716" title="$:/config/plugins/menubar/MenuItems/Visibility/$:/plugins/tiddlywiki/menubar/items/server">
+<div created="20210604103859011" modified="20211201163633781" title="$:/config/plugins/menubar/MenuItems/Visibility/$:/plugins/tiddlywiki/menubar/items/server">
 <pre>hide</pre>
 </div>
-<div created="20210604103900692" modified="20211105051152981" title="$:/config/plugins/menubar/MenuItems/Visibility/$:/plugins/tiddlywiki/menubar/items/sidebar">
+<div created="20210604103900692" modified="20211201163631547" title="$:/config/plugins/menubar/MenuItems/Visibility/$:/plugins/tiddlywiki/menubar/items/sidebar">
 <pre>hide</pre>
 </div>
 <div created="20210604103911661" modified="20210604103920901" title="$:/config/plugins/menubar/MenuItems/Visibility/$:/plugins/tiddlywiki/menubar/items/toprightbar">
@@ -412,6 +418,9 @@ Error message and password prompt
 </div>
 <div created="20211104094254829" modified="20211104094254829" title="$:/config/RelinkOnRename">
 <pre>yes</pre>
+</div>
+<div created="20211201163642573" modified="20211201163642573" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/permalink">
+<pre>show</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.23">
 <pre>{
@@ -14866,13 +14875,16 @@ Error message and password prompt
 <div created="20211110135331181" modified="20211110135331181" title="$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.23/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.23/index.html/$:/plugins/tiddlywiki/text-slicer">
 <pre>yes</pre>
 </div>
+<div created="20211201163800657" modified="20211201163802049" title="$:/state/dropdown/keyboardshortcut/excise-286565879">
+<pre>close</pre>
+</div>
 <div created="20210604103800496" modified="20210604103800496" title="$:/state/plugin-info--896887961-$:/plugins/tiddlywiki/menubar">
 <pre>yes</pre>
 </div>
 <div created="20210604103849628" modified="20211130094259441" title="$:/state/plugin-info--896887961-$:/plugins/tiddlywiki/menubar--331413611">
 <pre>contents</pre>
 </div>
-<div created="20210604103914241" modified="20211130100447125" title="$:/state/sidebar">
+<div created="20210604103914241" modified="20211201163823390" title="$:/state/sidebar">
 <pre>no</pre>
 </div>
 <div created="20210604103612755" modified="20210604103618187" title="$:/state/tab--1418380610">
@@ -14893,8 +14905,8 @@ Error message and password prompt
 <div created="20211130100419744" modified="20211130100440467" title="$:/state/tab-1350288642">
 <pre>$:/plugins/tg/ro/hide-sidebar-buttons</pre>
 </div>
-<div created="20210604103418263" modified="20211130094250210" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Plugins</pre>
+<div created="20210604103418263" modified="20211201163714740" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/KeyboardShortcuts</pre>
 </div>
 <div created="20210604103556660" modified="20211130100435717" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
@@ -14902,11 +14914,11 @@ Error message and password prompt
 <div created="20211104100635206" modified="20211105063622750" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Explorer</pre>
 </div>
-<div created="20211104094413615" modified="20211130075209461" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/More</pre>
+<div created="20211104094413615" modified="20211201163552565" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Tools</pre>
 </div>
-<div created="20210604103510375" modified="20211130075114046" title="$:/state/tabs/controlpanel/toolbars-1345989671">
-<pre>$:/core/ui/ControlPanel/Toolbars/PageControls</pre>
+<div created="20210604103510375" modified="20211201163638752" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<pre>$:/core/ui/ControlPanel/Toolbars/ViewToolbar</pre>
 </div>
 <div created="20211105063056049" modified="20211105063057546" title="$:/state/tag-manager/mt_history">
 <pre>closed</pre>
@@ -14935,7 +14947,7 @@ Error message and password prompt
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div list="[[iOS, iPadOS용 Edge 브라우저 문제]] 첫화면" title="$:/StoryList">
+<div created="20211201155825579" list="첫화면" modified="20211201163713213" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20210604104201759" list="$:/plugins/tiddlywiki/menubar/items/hamburger $:/plugins/tiddlywiki/menubar/items/topleftbar $:/plugins/tiddlywiki/menubar/items/matteul $:/plugins/tiddlywiki/menubar/items/contents $:/plugins/tiddlywiki/menubar/items/extmenu $:/plugins/tiddlywiki/menubar/items/search $:/plugins/tiddlywiki/menubar/items/pagecontrols $:/plugins/tiddlywiki/menubar/items/server $:/plugins/tiddlywiki/menubar/items/toprightbar $:/plugins/tiddlywiki/menubar/items/sidebar" modified="20211104110126834" title="$:/tags/MenuBar">
@@ -15130,7 +15142,7 @@ Error message and password prompt
 !! 본 사이트 이용 방법에 대해 알아보시려면 [[도움말]]을 참고하세요.
 !! 본 사이트 이용 중 문의 사항에 대해서는 [[문의]] 코너를 참고하세요.</pre>
 </div>
-<div created="20211104111122681" modified="20211130092246291" tags="" title="문학 관련 사이트">
+<div created="20211104111122681" modified="20211201163332613" tags="" title="문학 관련 사이트">
 <pre>```
 이 페이지는 단지 순수한 의도에서 유용하다고 판단하거나 소개하고 싶다고 생각된 사이트를 소개하려는 목적으로 존재합니다. 아래 각 사이트들은 개나리✨ 및 마음의 뜰과 직접적 연관이 없습니다.
 또한 아래에 명시된 사이트는 어떠한 요청이나 요구를 받고 등재 된 것이 아님을 알려드리며 아래 사이트에 대해 개나리✨ 및 마음의 뜰은 어떠한 책임도 지지 않습니다.
@@ -15149,14 +15161,7 @@ Error message and password prompt
 !문학주제 카페
 * [[서울 마포 채그로|https://checkngrow.modoo.at/]] - 서울특별시 마포구 마포동
 
-!책과 함께하면 좋은 카페
-&gt;모두 방문해본 카페이고 커피닮다를 제외하면 장시간 앉아도 본 카페들입니다. 추천 기준은 (1)프렌차이즈가 아니면서 (2)분위기 좋은 카페들입니다. 여기서 분위기는 카페 내부의 분위기 뿐 아니라 주변 분위기도 포함됩니다.
-* [[알마센&amp;카카오 커피랩|https://www.instagram.com/cafe_almacen/]] - 고양시 일산동구 중산동
-* [[큐커피|https://www.instagram.com/queue_coffee_lab/]] - 고양시 덕양구 주교동 주교동행정복지센터 맞은편
-* [[커피 마시다|https://www.instagram.com/coffee_masida/]] - 고양시 일산동구 성석동
-* [[커피폴|https://www.instagram.com/coffee_paul/]] - 경기도 동두천시 생연동
-* [[커피닮다|https://www.youtube.com/watch?v=QYDYBe643pc]] - 경기도 동두천시 생연동(1호선 보산역 인근)
-* [[W-37|https://www.instagram.com/cafe_w_37/]] - 서울특별시 마포구 동교동 홍대 책거리 내 (공항철도·경의중앙선 홍대입구역 1·6번 출구)</pre>
+![[책과 함께하면 좋은 카페]]</pre>
 </div>
 <div created="20210920140711400" modified="20210920140757448" tags="" title="분류별 색인">
 <pre>미원의 작품을 분류별로 찾으실 수 있습니다.
@@ -15290,6 +15295,33 @@ Error message and password prompt
 * [[시]]
 * [[수필]]
 * [[신앙수기]]</pre>
+</div>
+<div created="20211201155921396" modified="20211201163430033" tags="" title="책과 함께하면 좋은 카페">
+<pre>```
+모두 방문해본 카페이고 커피닮다를 제외하면 장시간 앉아도 본 카페들입니다.
+추천 기준은 (1)프렌차이즈가 아니면서 (2)분위기 좋은 카페들입니다. 여기서 분위기는 카페 내부의 분위기 뿐 아니라 주변 분위기도 포함됩니다.
+순전히 개인적 관점에서 작성된 곳입니다. 모두 다 버스 혹은 지하철(또는 둘 다)로 갈수는 있는 곳이지만 어떤 곳은 배차간격이 길어서 충분한 시간을 두고 방문해야 합니다.
+```
+&gt;[[카카오맵(구. 다음지도)|https://map.kakao.com/]] [[네이버 지도|https://map.naver.com]]
+
+
+* [[알마센&amp;카카오 커피랩|https://www.instagram.com/cafe_almacen/]]
+&gt;고양시 일산동구 약산길 41 (중산동 20) / 약산마을 언덕길 올라서 010버스 회자지 부근
+
+* [[큐커피|https://www.instagram.com/queue_coffee_lab/]]
+&gt;고양시 덕양구 고양대로1315번길 72 나동 (주교동 593-4) / 고양시청 인근 주교동행정복지센터 맞은편 (구. 큐닉스컴퓨터 자리)
+
+* [[커피 마시다|https://www.instagram.com/coffee_masida/]]
+&gt;고양시 일산동구 성현로 207 (성석동 498-4) / 성석동 마골오거리 (←청아공원 간판 붙어 있는 2층 상가)
+
+* [[커피폴|https://www.instagram.com/coffee_paul/]]
+&gt;경기도 동두천시 중앙로 279 1층 (생연동 602-11) / (구)버스터미널 정류장(연천방면)에서 서울의원 방향으로 가다가 중앙새마을금고 대각선 맞은편
+
+* [[커피닮다|https://www.youtube.com/watch?v=QYDYBe643pc]]
+&gt;경기도 동두천시 중앙로 349-1 (생연동 570-12) /1호선 보산역 1번출구, 캠프보산에서 부대찌개거리 방향
+
+* [[W-37|https://www.instagram.com/cafe_w_37/]]
+&gt;서울특별시 마포구 와우산로37길 11, 2층 (동교동 189-5) / 홍대 책거리 내, 공항철도·경의중앙선 홍대입구역 1·6번 출구에서 직진하다 목수의딸·비아토르 빌딩 2층</pre>
 </div>
 <div created="20211104094305628" modified="20211130075041446" tags="" title="첫화면">
 <pre>[img[mt-side.png]]&lt;br&gt;
